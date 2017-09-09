@@ -57,7 +57,7 @@ var todoList = {
 
 var btnHandlers = {
     addTodo: function() {
-        var addTodoTextInput = document.getElementById('addTodoTextInput');
+        var addTodoTextInput = document.getElementById('todoInput');
         todoList.addTodo(addTodoTextInput.value);
         addTodoTextInput.value = '';
         view.displayTodos();
